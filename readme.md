@@ -12,7 +12,7 @@ A simple extension to `Gtk::Image`
 
 ![gif in Image](./screenshot/image_gif_rectangle.gif "gif in Image")
 
-- There is three variants:
+- There are three variants:
 
 | `Image::Shape::RECTANGLE`                                                  | `Image::Shape::ROUNDED`                                              | `Image::Shape::CIRCLE`                                            |
 | -------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------- |
