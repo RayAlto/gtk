@@ -7,6 +7,7 @@
 #include "gtkmm/label.h"
 
 #include "image.h"
+#include "message_bubble.h"
 
 namespace rayalto {
 namespace gtk {
@@ -26,10 +27,11 @@ Window::Window() : Gtk::Window() {
 
     // =====
 
-    image_.file_name("/home/rayalto/Pictures/gif/97988116.gif")
-        .is_animation(true)
-        .shape(widget::Image::Shape::ROUNDED);
-    box_.append(image_);
+    message_bubble_.from_side(widget::MessageBubble::Side::RIGHT);
+    message_bubble_.gtk_label.set_text(
+        "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+    message_bubble_.set_margin(10);
+    box_.append(message_bubble_);
 
     // =====
 

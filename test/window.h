@@ -27,7 +27,7 @@ protected:
     Gtk::Box box_;
     Gtk::ActionBar action_bar_;
     Gtk::Button close_button_;
-    widget::Image image_;
+    widget::MessageBubble message_bubble_;
 };
 
 } // namespace gtk
