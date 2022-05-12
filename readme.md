@@ -29,3 +29,9 @@ A simple message bubble
 | `MessageBubble::Side::LEFT`                                                                  | `MessageBubble::Side::RIGHT`                                                                    |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | ![message bubble from left](./screenshot/message_bubble_left.gif "message bubble from left") | ![message bubble from right](./screenshot/message_bubble_right.gif "message bubble from right") |
+
+### `rayalto::gtk::widget::RedDot`
+
+A simple red dot
+
+![red dot 99 plus](./screenshot/red_dot_99plus.png "red dot 99 plus")
