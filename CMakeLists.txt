@@ -12,6 +12,7 @@ pkg_check_modules(GTKMM REQUIRED gtkmm-4.0)
 set(RA_GTK_SRCS
   ${CMAKE_CURRENT_LIST_DIR}/src/image.cc
   ${CMAKE_CURRENT_LIST_DIR}/src/message_bubble.cc
+  ${CMAKE_CURRENT_LIST_DIR}/src/red_dot.cc
   ${CMAKE_CURRENT_LIST_DIR}/src/runner.cc
   ${CMAKE_CURRENT_LIST_DIR}/src/util.cc)
 set(RA_GTK_INCLUDES

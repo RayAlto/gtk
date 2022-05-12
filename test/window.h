@@ -9,6 +9,7 @@
 
 #include "image.h"
 #include "message_bubble.h"
+#include "red_dot.h"
 
 namespace rayalto {
 namespace gtk {
@@ -27,7 +28,7 @@ protected:
     Gtk::Box box_;
     Gtk::ActionBar action_bar_;
     Gtk::Button close_button_;
-    widget::MessageBubble message_bubble_;
+    widget::RedDot red_dot_;
 };
 
 } // namespace gtk

@@ -27,11 +27,9 @@ Window::Window() : Gtk::Window() {
 
     // =====
 
-    message_bubble_.from_side(widget::MessageBubble::Side::RIGHT);
-    message_bubble_.gtk_label.set_text(
-        "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-    message_bubble_.set_margin(10);
-    box_.append(message_bubble_);
+    red_dot_.number(244);
+    red_dot_.set_margin(10);
+    box_.append(red_dot_);
 
     // =====
 
